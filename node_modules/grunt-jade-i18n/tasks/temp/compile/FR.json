@@ -1,0 +1,95 @@
+{
+  "global": {
+    "title": "Titre de la prez",
+    "description": "Un SQLI HTML5 systeme de présentation pour Grunt, Jade, i18n, reveal.js",
+    "author": "Robin Coma Delperier",
+    "language": {
+      "fr": "FR",
+      "en": "EN"
+    }
+  },
+  "slide1": {
+    "left": {
+      "description": "Contenu de gauche"
+    },
+    "right": {
+      "description": "Contenu de droite"
+    }
+  },
+  "slide2": {
+    "subSlide1": {
+      "title": "Slide 2 sub slide 1 title",
+      "description": "Slide 2 description",
+      "left": {
+        "description": "Contenu de gauche"
+      },
+      "right": {
+        "description": "Contenu de droite"
+      }
+    },
+    "subSlide2": {
+      "title": "Slide 2 sub slide 2 title",
+      "description": "Slide 2 description",
+      "left": {
+        "description": "Contenu de gauche"
+      },
+      "right": {
+        "item1": "Item 1",
+        "item2": "Item 2",
+        "item3": "Item 3"
+      }
+    },
+    "subSlide3": {
+      "title": "Slide 2 sub slide 3 title",
+      "description": "Slide 2 description",
+      "left": {
+        "description": "Contenu de gauche"
+      },
+      "right": {
+        "description": "Contenu de droite"
+      }
+    }
+  },
+  "slide3": {
+    "subSlide1": {
+      "title": "Slide 3 sub slide 1 title",
+      "description": "Slide 3 description",
+      "left": {
+        "description": "Contenu de gauche"
+      },
+      "right": {
+        "description": "Contenu de droite"
+      }
+    },
+    "subSlide2": {
+      "title": "Slide 3 sub slide 2 title",
+      "description": "Slide 3 description",
+      "left": {
+        "description": "Contenu de gauche"
+      },
+      "right": {
+        "description": "Contenu de droite"
+      }
+    },
+    "subSlide3": {
+      "title": "Slide 3 sub slide 3 title",
+      "description": "Slide 3 description",
+      "left": {
+        "description": "Contenu de gauche"
+      },
+      "right": {
+        "description": "Contenu de droite"
+      }
+    }
+  },
+  "slide4": {
+    "title": "Slide 4 title",
+    "description": "Slide 4 description",
+    "left": {
+      "description": "Contenu de gauche"
+    },
+    "right": {
+      "description": "Contenu de droite"
+    }
+  }
+}

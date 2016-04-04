@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Titre de la prez</title>
+    <meta name="description" content="Un SQLI HTML5 systeme de pr�sentation pour Grunt, Jade, i18n, reveal.js">
+    <meta name="author" content="Robin Coma Delperier">
+    <link rel="stylesheet" href="../css/reveal.css">
+    <link rel="stylesheet" href="../lib/css/zenburn.css">
+    <link rel="stylesheet" href="../css/theme/sqli.css" id="theme">
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '../css/print/pdf.css' : '../css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+      
+    </script><!--[if lt IE 9]>
+    <script src="../lib/js/html5shiv.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1>Titre de la prez</h1>
+          <h3>Un SQLI HTML5 systeme de pr�sentation pour Grunt, Jade, i18n, reveal.js.</h3>
+          <p><small>Contenu de gauche</small></p>
+          <p><small>Contenu de droite</small></p>
+        </section>
+        <section>
+          <section>
+            <h1>Slide 2 sub slide 1 title</h1>
+            <h3>Slide 2 description.</h3>
+            <p><small>Contenu de gauche</small></p>
+            <p><small>Contenu de droite</small></p>
+          </section>
+          <section>
+            <h1>Slide 2 sub slide 2 title</h1>
+            <h3>Slide 2 description.</h3>
+            <p><small>Contenu de gauche</small></p>
+            <ul>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 2</li>
+            </ul>
+            <hr><a>Test link</a>
+          </section>
+          <section>
+            <h1>Slide 2 sub slide 3 title</h1>
+            <h3>Slide 2 description.</h3>
+            <p><small>Contenu de gauche</small></p>
+            <p><small>Contenu de droite</small></p>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h1>Slide 3 sub slide 1 title</h1>
+            <h3>Slide 3 description.</h3>
+            <p><small>Contenu de gauche</small></p>
+            <p><small>Contenu de droite</small></p>
+          </section>
+          <section>
+            <h1>Slide 3 sub slide 2 title</h1>
+            <h3>Slide 3 description.</h3>
+            <p><small>Contenu de gauche</small></p>
+            <p><small>Contenu de droite</small></p>
+          </section>
+          <section>
+            <h1>Slide 3 sub slide 3 title</h1>
+            <h3>Slide 3 description.</h3>
+            <p><small>Contenu de gauche</small></p>
+            <p><small>Contenu de droite</small></p>
+          </section>
+        </section>
+        <section>
+          <h1>Slide 4 title</h1>
+          <h3>Slide 4 description.</h3>
+          <p><small>Contenu de gauche</small></p>
+          <p><small>Contenu de droite</small></p>
+        </section>
+      </div>
+    </div>
+    <ul class="language">
+      <li class="active"><a href="../FR">FR</a></li>
+      <li><a href="../EN">EN</a></li>
+    </ul>
+    <ul class="social">
+      <li><a href="http://www.facebook.com/SQLI.Enterprise" target="_blank"><img src="../img/social/Facebook_mini.png" style="border: 0px  ;" alt="Facebook" title="Facebook"></a></li>
+      <li><a href="https://www.linkedin.com/company/sqli" target="_blank"><img src="../img/social/Linkedin_mini.png" style="border: 0px  ;" alt="Linkedin" title="Linkedin"></a></li>
+      <li><a href="http://www.twitter.com/sqli_enterprise" target="_blank"><img src="../img/social/Twitter_mini.png" style="border: 0px  ;" alt="Twitter" title="Twitter"></a></li>
+      <li><a href="http://www.youtube.com/user/SQLIGROUP" target="_blank"><img src="../img/social/Youtube_mini.png" style="border: 0px  ;" alt="Youtube" title="Youtube"></a></li>
+    </ul>
+    <script src="../lib/js/head.min.js"></script>
+    <script src="../js/reveal.js"></script>
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: '../lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '../plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '../plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '../plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '../plugin/zoom-js/zoom.js', async: true },
+          { src: '../plugin/notes/notes.js', async: true }
+        ]
+      });
+      
+    </script>
+  </body>
+</html>

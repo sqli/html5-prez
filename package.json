@@ -1,0 +1,45 @@
+{
+  "name": "sqli-html5-prez",
+  "version": "3.2.0",
+  "description": "An SQLI HTML5 Prez for Grunt, Jade, i18,, reveal.js",
+  "author": {
+    "name": "Robin Coma Delperier",
+    "email": "rcomadelperier@sqli.com",
+    "web": "https://fr.linkedin.com/in/robincoma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sqli/html5-prez.git"
+  },
+  "engines": {
+    "node": "~0.10.0"
+  },
+  "dependencies": {
+    "express": "^2.5.11",
+    "mustache": "^0.7.3",
+    "socket.io": "^0.9.17",
+    "underscore": "^1.5.2"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^3.0.3",
+    "grunt-contrib-connect": "^0.11.2",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-jade": "^0.15.0",
+    "grunt-contrib-jshint": "^0.12.0",
+    "grunt-contrib-qunit": "^0.7.0",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-gh-pages": "1.0.0",
+    "grunt-jade-i18n": "0.4.0",
+    "grunt-sass": "^1.1.0",
+    "grunt-zip": "^0.17.1",
+    "node-sass": "^3.4.2"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/sqli/html5-prez.git/blob/master/LICENSE"
+    }
+  ]
+}
