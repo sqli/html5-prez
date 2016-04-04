@@ -1,0 +1,34 @@
+//- Use the presentation layout so we can keep this clean
+extends layouts/presentation
+
+//- Customize the title, meta description, and author using this block.
+block title
+  title #{$i18n.global.title}
+  meta(
+    name="description"
+    content="#{$i18n.global.description}"
+  )
+  meta(name="author" content="#{$i18n.global.author}")
+
+
+//- Add your slides here. See templates/includes/_mixins.jade for information 
+//- on how `+slide` works.
+block slides
+  +slide
+    include slides/01-01-intro.jade
+  +slide
+    +slide
+      include slides/02-01-intro.jade
+    +slide
+      include slides/02-02-more-detail.jade
+    +slide
+      include slides/02-03-more-detail.jade
+  +slide
+    +slide
+      include slides/03-01-intro.jade
+    +slide
+      include slides/03-02-more-detail.jade
+    +slide
+      include slides/03-03-more-detail.jade
+  +slide
+    include slides/04-01-outro.jade
